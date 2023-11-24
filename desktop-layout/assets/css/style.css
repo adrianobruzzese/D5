@@ -1,9 +1,4 @@
-/*settings generali*/
-:root{
-    --arancio-wow : #f04c2f;
-    --azzurro-twitter : #25a2c3;
 
-}
 body {
     color: #393d41;
     font-size: 2rem;
@@ -12,7 +7,7 @@ body {
 }
 
 h1, h2, h3, h4 { 
-    color: var(--azzurro-twitter);
+    color: #25a2c3;
     font-family: 'Montserrat', sans-serif;
     line-height: 1.5;
 }
@@ -33,7 +28,7 @@ h4 {
 }
 
 #footer {
-    background-color: var(--azzurro-twitter);
+    background-color: #25a2c3;
     text-align: center;
     color: white;
 }
@@ -49,7 +44,7 @@ h4 {
 
 
 #partiamo {
-    background-color: var(--arancio-wow) ;
+    background-color: #f04c2f ;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 2rem;
@@ -103,16 +98,8 @@ h4 {
 
 /*main*/
 
-.menu-split {
-    display: flex;
-    align-items: center;
-}
-.main-left{
-   width:50vw;
-}
-.main-right{
-    width: 50vw;
-}
+
+
 .round-image {
     border-radius: 100%;
     width: 70%;
@@ -121,7 +108,7 @@ h4 {
 }
 
 .feedback {
-    background-color: var(--arancio-wow);
+    background-color: #f04c2f;
     margin: 50px 0;
     color: white;
     padding: 100px 5px 70px 5px;
@@ -147,18 +134,6 @@ h4 {
 }
 /*articoli correlati*/
 
-.related-articles {
-    display: flex;
-    margin: 120px 0;
-}
-div.post.tab{
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 0;
-    align-content: stretch;
-    flex-wrap: wrap;
-}
 
 .post-img {
     height: 50%;
